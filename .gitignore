@@ -1,3 +1,4 @@
+# Unity
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -5,10 +6,15 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
-[Pp]ackages/
-[Pp]rojectSettings/Packages/
-[Uu]nity[Aa]sset[Ss]tore/
+UserSettings/
+
+# Plastic SCM
+.plastic/
+
+# Asset store tools
 [Aa]ssets/AssetStoreTools*
+
+# IDE / build artifacts
 *.csproj
 *.unityproj
 *.sln
@@ -24,8 +30,10 @@
 *.VC.db
 *.autosave
 *.[Aa]sset.[Bb]ackup.*
+
+# Addressables / StreamingAssets meta only
 **/Assets/AddressableAssetsData/*/*.bin*
-**/Assets/StreamingAssets/*.meta".plastic/" 
-"UserSettings/"   
-"ignore.conf" 
-".vscode/" 
+**/Assets/StreamingAssets/*.meta
+
+# VSCode
+.vscode/

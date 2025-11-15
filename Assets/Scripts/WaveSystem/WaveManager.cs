@@ -30,6 +30,9 @@ public class WaveManager : MonoBehaviour
     [Tooltip("Alternative: build index of the scene to load. Used only if nextSceneName is empty and index >= 0.")]
     [SerializeField] private int nextSceneBuildIndex = -1;
 
+    [Header("Boss Intro")]
+    [SerializeField] private float bossIntroCameraDuration = 5f;
+
 
     private int currentWave = 0;
     private int enemiesAlive = 0;          // total (keep if you want)
@@ -112,7 +115,6 @@ public class WaveManager : MonoBehaviour
 
     private IEnumerator SpawnWave(int waveNumber)
     {
-        // Normal waves: spawn normal enemies with increasing count
         if (waveNumber < totalWaves)
         {
             int count = GetEnemyCountForWave(waveNumber);
@@ -128,7 +130,10 @@ public class WaveManager : MonoBehaviour
             if (bossPrefab != null)
             {
                 Debug.Log("[WaveManager] Final wave: spawning boss only.");
-                Spawn(bossPrefab);
+                GameObject bossInstance = Spawn(bossPrefab);
+
+                if (bossInstance != null)
+                    StartCoroutine(BossIntroSequence(bossInstance.transform));
             }
             else
             {
@@ -141,6 +146,56 @@ public class WaveManager : MonoBehaviour
                 }
             }
         }
+    }
+
+    private IEnumerator BossIntroSequence(Transform bossTransform)
+    {
+        if (bossTransform == null)
+            yield break;
+
+        // Find camera follow
+        var cam = FindFirstObjectByType<CameraFollow>();
+        if (cam == null)
+            yield break;
+
+        // Cache player to focus back later
+        var player = FindFirstObjectByType<Player>();
+        Transform playerT = player ? player.transform : null;
+
+        // 1) Freeze gameplay (player, boss, projectiles, physics, etc.)
+        float oldTimeScale = Time.timeScale;
+        Time.timeScale = 0f;
+
+        // 2) Switch to boss music
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayBossMusic();
+
+        // 3) Focus camera on boss
+        cam.SetTarget(bossTransform);
+
+        // 4) Wait in real time (unaffected by timeScale)
+        if (bossIntroCameraDuration > 0f)
+            yield return new WaitForSecondsRealtime(bossIntroCameraDuration);
+
+        // 5) Return camera to player
+        if (playerT != null)
+            cam.SetTarget(playerT);
+
+        // 6) Restore map BGM
+        if (AudioManager.Instance != null)
+        {
+            var sceneName = SceneManager.GetActiveScene().name;
+
+            if (sceneName == "ForestMap")
+                AudioManager.Instance.PlayForestMusic();
+            else if (sceneName == "DesertMap")
+                AudioManager.Instance.PlayDesertMusic();
+            else
+                AudioManager.Instance.PlayMainMenuMusic(); // fallback
+        }
+
+        // 7) Unfreeze gameplay
+        Time.timeScale = oldTimeScale;
     }
 
     private int GetEnemyCountForWave(int waveNumber)
@@ -163,24 +218,26 @@ public class WaveManager : MonoBehaviour
         Spawn(prefab);
     }
 
-    private void Spawn(GameObject prefab)
+    private GameObject Spawn(GameObject prefab)
     {
         if (!prefab)
         {
             Debug.LogWarning("[WaveManager] Missing prefab in Spawn().");
-            return;
+            return null;
         }
         if (spawnPoints == null || spawnPoints.Length == 0)
         {
             Debug.LogWarning("[WaveManager] No spawn points to spawn from.");
-            return;
+            return null;
         }
 
         Transform sp = spawnPoints[Random.Range(0, spawnPoints.Length)];
-        Instantiate(prefab, sp.position, Quaternion.identity);
+        GameObject instance = Instantiate(prefab, sp.position, Quaternion.identity);
 
         enemiesAlive++;
         enemiesAliveThisWave++;   // track this wave only
+
+        return instance;
     }
 
     private void HandleAllWavesCompleted()

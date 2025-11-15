@@ -14,6 +14,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip desertMusic;
     public AudioClip gameOverMusic;
     public AudioClip victoryMusic;
+    public AudioClip bossMusic;
 
     [Header("SFX Clips")]
     public AudioClip selectSound;
@@ -72,6 +73,11 @@ public class AudioManager : MonoBehaviour
     public void PlayDesertMusic()
     {
         PlayMusicOnLoop(desertMusic);
+    }
+
+    public void PlayBossMusic()
+    {
+        PlayMusicOnLoop(bossMusic);
     }
 
     public void PlayGameOverMusic()
