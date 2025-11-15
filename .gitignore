@@ -33,7 +33,14 @@ UserSettings/
 
 # Addressables / StreamingAssets meta only
 **/Assets/AddressableAssetsData/*/*.bin*
+<<<<<<< Updated upstream
 **/Assets/StreamingAssets/*.meta
 
 # VSCode
 .vscode/
+=======
+**/Assets/StreamingAssets/*.meta.plastic/
+UserSettings/ 
+"ignore.conf" 
+.vscode/
+>>>>>>> Stashed changes
