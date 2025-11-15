@@ -1,0 +1,886 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\UnityProjects\\Pokemon-survival-depths\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\unityprojects\\pokemon-survival-depths\\assets\\scripts\\envdamagezone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\envdamagezone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\entity\\entity_combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entity\\entity_combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\projectileobject\\projectileobject_base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectileobject\\projectileobject_base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\entity\\entity_health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entity\\entity_health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\interface\\idamagable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interface\\idamagable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\entity\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entity\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\player\\player_xp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player_xp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\pickups\\pickups_xp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pickups\\pickups_xp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\statsystem\\stat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statsystem\\stat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\ui\\ui_selectionnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_selectionnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\ui\\ui_leveluppanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_leveluppanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\buff\\buff_dataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buff\\buff_dataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\buff\\buff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buff\\buff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\ui\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\ui\\levelupqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\levelupqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\infomenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infomenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\ui\\ui_minihealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_minihealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\ui\\ui_infobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_infobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\statsystem\\stat_setupso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statsystem\\stat_setupso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\statsystem\\stat_resourcegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statsystem\\stat_resourcegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\statsystem\\stat_regen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statsystem\\stat_regen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\statsystem\\stat_offensegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statsystem\\stat_offensegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\statsystem\\stat_majorgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statsystem\\stat_majorgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\statsystem\\stat_defensegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statsystem\\stat_defensegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\statsystem\\stat_bonus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statsystem\\stat_bonus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\enemy\\enemystates\\enemy_attackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemystates\\enemy_attackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\player\\playerstates\\player_attackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstates\\player_attackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\player\\playerstates\\player_movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstates\\player_movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\entity\\entity_buffs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entity\\entity_buffs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\player\\playerstates\\player_idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstates\\player_idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\statemachine\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statemachine\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\entity\\entity_vfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entity\\entity_vfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\enemy\\enemystates\\enemy_faintstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemystates\\enemy_faintstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\statemachine\\entitystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statemachine\\entitystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\enemy\\enemy_drop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy_drop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\entity\\entity_animationtriggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entity\\entity_animationtriggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\projectileobject\\projectileobject_stinger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectileobject\\projectileobject_stinger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\enemy\\enemy_combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy_combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\projectileobject\\projectileobject_fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectileobject\\projectileobject_fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\entity\\entity_stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entity\\entity_stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\enemy\\enemy_beedrill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy_beedrill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\enemy\\enemy_vespiquen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy_vespiquen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\enemy\\enemystates\\enemy_idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemystates\\enemy_idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\statemachine\\enemystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statemachine\\enemystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statemachine\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\StatType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StatSystem\\StatType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\player\\playerstates\\player_faintstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstates\\player_faintstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\enemy\\enemy_vfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy_vfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|C:\\UnityProjects\\Pokemon-survival-depths\\assets\\scripts\\enum\\stattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7941E8A1-2EFD-20A0-6EBC-8F4596588054}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enum\\stattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Objects\\Buff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Objects\\Buff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Objects\\Object_Potion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Objects\\Object_Potion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\PickUps\\Buff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PickUps\\Buff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Stat.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\Stat.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StatSystem\\Stat.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\Stat.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StatSystem\\Stat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T06:43:19.973Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "StatType.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\StatType.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StatSystem\\StatType.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\StatType.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StatSystem\\StatType.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:31:01.866Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnvDamageZone.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\EnvDamageZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnvDamageZone.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\EnvDamageZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnvDamageZone.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:53:10.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDamagable.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Interface\\IDamagable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interface\\IDamagable.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Interface\\IDamagable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interface\\IDamagable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:52:12.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UI_SelectionNode.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\UI\\UI_SelectionNode.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_SelectionNode.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\UI\\UI_SelectionNode.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_SelectionNode.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:25:35.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LevelUpQueue.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\UI\\LevelUpQueue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\LevelUpQueue.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\UI\\LevelUpQueue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\LevelUpQueue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T15:37:06.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Stat_OffenseGroup.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\Stat_OffenseGroup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StatSystem\\Stat_OffenseGroup.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\Stat_OffenseGroup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StatSystem\\Stat_OffenseGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:31:41.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Buff.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Buff\\Buff.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Buff\\Buff.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Buff\\Buff.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Buff\\Buff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T15:11:40.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Buff_DataSO.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Buff\\Buff_DataSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Buff\\Buff_DataSO.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Buff\\Buff_DataSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Buff\\Buff_DataSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:55:45.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UI_LevelUpPanel.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\UI\\UI_LevelUpPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_LevelUpPanel.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\UI\\UI_LevelUpPanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_LevelUpPanel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T15:11:56.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Entity_Combat.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Entity\\Entity_Combat.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Entity\\Entity_Combat.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Entity\\Entity_Combat.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Entity\\Entity_Combat.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAuwHYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T22:28:59.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Entity_Health.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Entity\\Entity_Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Entity\\Entity_Health.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Entity\\Entity_Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Entity\\Entity_Health.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwDQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T08:12:45.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectileObject_Base.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\ProjectileObject\\ProjectileObject_Base.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ProjectileObject\\ProjectileObject_Base.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\ProjectileObject\\ProjectileObject_Base.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ProjectileObject\\ProjectileObject_Base.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwD4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:08:46.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Stat_ResourceGroup.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\Stat_ResourceGroup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StatSystem\\Stat_ResourceGroup.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\Stat_ResourceGroup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StatSystem\\Stat_ResourceGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:31:43.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player_XP.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Player\\Player_XP.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player_XP.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Player\\Player_XP.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player_XP.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAGYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:40:02.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PickUps_XP.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\PickUps\\PickUps_XP.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PickUps\\PickUps_XP.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\PickUps\\PickUps_XP.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PickUps\\PickUps_XP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:44:30.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Entity\\Entity.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Entity\\Entity.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Entity\\Entity.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Entity\\Entity.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAIoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T08:11:53.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InfoMenuManager.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\InfoMenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InfoMenuManager.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\InfoMenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InfoMenuManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:46:55.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UI.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\UI\\UI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\UI\\UI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:47:04.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UI_InfoBox.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\UI\\UI_InfoBox.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_InfoBox.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\UI\\UI_InfoBox.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_InfoBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:47:18.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UI_MiniHealthBar.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\UI\\UI_MiniHealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_MiniHealthBar.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\UI\\UI_MiniHealthBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_MiniHealthBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:47:40.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Stat_MajorGroup.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\Stat_MajorGroup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StatSystem\\Stat_MajorGroup.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\Stat_MajorGroup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StatSystem\\Stat_MajorGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:31:40.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Stat_DefenseGroup.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\Stat_DefenseGroup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StatSystem\\Stat_DefenseGroup.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\Stat_DefenseGroup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StatSystem\\Stat_DefenseGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:31:39.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Stat_Bonus.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\Stat_Bonus.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StatSystem\\Stat_Bonus.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\Stat_Bonus.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StatSystem\\Stat_Bonus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:31:38.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Enemy_AttackState.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\EnemyStates\\Enemy_AttackState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyStates\\Enemy_AttackState.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\EnemyStates\\Enemy_AttackState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyStates\\Enemy_AttackState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T22:31:47.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Stat_Regen.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\Stat_Regen.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StatSystem\\Stat_Regen.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\Stat_Regen.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StatSystem\\Stat_Regen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:31:42.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Stat_SetupSO.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\Stat_SetupSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StatSystem\\Stat_SetupSO.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StatSystem\\Stat_SetupSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StatSystem\\Stat_SetupSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T10:00:00.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Player_AttackState.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Player\\PlayerStates\\Player_AttackState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerStates\\Player_AttackState.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Player\\PlayerStates\\Player_AttackState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerStates\\Player_AttackState.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T23:27:27.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Player_MoveState.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Player\\PlayerStates\\Player_MoveState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerStates\\Player_MoveState.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Player\\PlayerStates\\Player_MoveState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerStates\\Player_MoveState.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAzwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T23:41:18.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Entity_Buffs.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Entity\\Entity_Buffs.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Entity\\Entity_Buffs.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Entity\\Entity_Buffs.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Entity\\Entity_Buffs.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T05:06:38.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Player_IdleState.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Player\\PlayerStates\\Player_IdleState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerStates\\Player_IdleState.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Player\\PlayerStates\\Player_IdleState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerStates\\Player_IdleState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T08:34:32.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T08:12:04.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PlayerState.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StateMachine\\PlayerState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StateMachine\\PlayerState.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StateMachine\\PlayerState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StateMachine\\PlayerState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T23:36:34.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Entity_VFX.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Entity\\Entity_VFX.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Entity\\Entity_VFX.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Entity\\Entity_VFX.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Entity\\Entity_VFX.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAuwLcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T22:18:00.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T08:12:25.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Enemy_FaintState.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\EnemyStates\\Enemy_FaintState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyStates\\Enemy_FaintState.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\EnemyStates\\Enemy_FaintState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyStates\\Enemy_FaintState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:06:35.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EntityState.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StateMachine\\EntityState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StateMachine\\EntityState.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StateMachine\\EntityState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StateMachine\\EntityState.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAjwB0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T23:47:30.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Enemy_Drop.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\Enemy_Drop.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy_Drop.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\Enemy_Drop.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy_Drop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T12:33:56.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProjectileObject_Stinger.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\ProjectileObject\\ProjectileObject_Stinger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ProjectileObject\\ProjectileObject_Stinger.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\ProjectileObject\\ProjectileObject_Stinger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ProjectileObject\\ProjectileObject_Stinger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:39:11.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Entity_AnimationTriggers.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Entity\\Entity_AnimationTriggers.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Entity\\Entity_AnimationTriggers.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Entity\\Entity_AnimationTriggers.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Entity\\Entity_AnimationTriggers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T22:24:32.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Enemy_Combat.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\Enemy_Combat.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy_Combat.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\Enemy_Combat.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy_Combat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T22:28:32.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ProjectileObject_Fireball.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\ProjectileObject\\ProjectileObject_Fireball.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ProjectileObject\\ProjectileObject_Fireball.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\ProjectileObject\\ProjectileObject_Fireball.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ProjectileObject\\ProjectileObject_Fireball.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:08:23.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Enemy_Vespiquen.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\Enemy_Vespiquen.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy_Vespiquen.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\Enemy_Vespiquen.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy_Vespiquen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T22:32:35.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Entity_Stats.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Entity\\Entity_Stats.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Entity\\Entity_Stats.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Entity\\Entity_Stats.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Entity\\Entity_Stats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:05:43.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Enemy_Beedrill.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\Enemy_Beedrill.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy_Beedrill.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\Enemy_Beedrill.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy_Beedrill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:20:31.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Enemy_IdleState.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\EnemyStates\\Enemy_IdleState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyStates\\Enemy_IdleState.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\EnemyStates\\Enemy_IdleState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyStates\\Enemy_IdleState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T23:37:26.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "EnemyState.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StateMachine\\EnemyState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StateMachine\\EnemyState.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StateMachine\\EnemyState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StateMachine\\EnemyState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T23:36:39.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "StateMachine.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StateMachine\\StateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StateMachine\\StateMachine.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\StateMachine\\StateMachine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StateMachine\\StateMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:04:47.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Player_FaintState.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Player\\PlayerStates\\Player_FaintState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerStates\\Player_FaintState.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Player\\PlayerStates\\Player_FaintState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerStates\\Player_FaintState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T23:40:34.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Enemy_VFX.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\Enemy_VFX.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy_VFX.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enemy\\Enemy_VFX.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy_VFX.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T22:26:14.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "StatType.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enum\\StatType.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enum\\StatType.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Enum\\StatType.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enum\\StatType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T22:22:34.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Buff.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\PickUps\\Buff.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PickUps\\Buff.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\PickUps\\Buff.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PickUps\\Buff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T09:27:17.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Buff.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Objects\\Buff.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\Buff.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Objects\\Buff.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objects\\Buff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T08:41:04.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Object_Potion.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Objects\\Object_Potion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\Object_Potion.cs",
+              "ToolTip": "C:\\UnityProjects\\Pokemon-survival-depths\\Assets\\Scripts\\Objects\\Object_Potion.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objects\\Object_Potion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:00:26.259Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

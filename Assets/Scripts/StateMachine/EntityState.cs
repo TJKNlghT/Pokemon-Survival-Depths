@@ -1,0 +1,64 @@
+using UnityEngine;
+
+public abstract class EntityState
+{
+    protected StateMachine stateMachine;
+    protected string animBoolName;
+
+    protected Animator anim;
+    protected Rigidbody2D rb;
+    protected Entity_Stats stats;
+
+    protected bool triggerCalled;
+
+    [Header("Hurt State Details")]
+    protected float hurtDuration = 1; //default duration
+    protected float stateTimer;
+
+
+    public EntityState(StateMachine stateMachine, string animBoolName)
+    {
+        this.stateMachine = stateMachine;
+        this.animBoolName = animBoolName;
+    }
+    public virtual void Enter()
+    {
+        anim.SetBool(animBoolName, true);
+        triggerCalled = false;
+    }
+
+    public virtual void Update()
+    {
+        stateTimer -= Time.deltaTime;
+        UpdateAnimationParameters();
+    }
+
+    public virtual void FixedUpdate()
+    {
+    }
+
+    public virtual void Exit()
+    {
+        //method called when state exit and changes to new one
+        anim.SetBool(animBoolName, false);
+    }
+
+    public void AnimationTrigger()
+    {
+        triggerCalled = true;
+    }
+
+    public virtual void UpdateAnimationParameters()
+    {
+        // When updating param for animations
+    }
+
+    public void SyncAttackSpeed()
+    {
+        if (anim == null || stats == null)
+            return;
+
+        float attackSpeed = stats.offense.attackSpeed.GetValue(); // e.g. 1 = normal, 1.5 = 50% faster
+        anim.SetFloat("attackSpeedMultiplier", attackSpeed);
+    }
+}

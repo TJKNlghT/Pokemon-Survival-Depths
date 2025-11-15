@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|c:\\unityprojects\\git project\\pokemon survival depths\\assets\\scripts\\manager\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|c:\\unityprojects\\git project\\pokemon survival depths\\assets\\scripts\\manager\\infomenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\infomenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|c:\\unityprojects\\git project\\pokemon survival depths\\assets\\scripts\\manager\\runmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\runmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|c:\\unityprojects\\git project\\pokemon survival depths\\assets\\scripts\\wavesystem\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wavesystem\\wavemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|c:\\unityprojects\\git project\\pokemon survival depths\\assets\\scripts\\player\\player_xp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player_xp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|c:\\unityprojects\\git project\\pokemon survival depths\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|c:\\unityprojects\\git project\\pokemon survival depths\\assets\\scripts\\manager\\playerspawnermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\playerspawnermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|c:\\unityprojects\\git project\\pokemon survival depths\\assets\\scripts\\manager\\gameovermenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\gameovermenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|c:\\unityprojects\\git project\\pokemon survival depths\\assets\\scripts\\manager\\playerdeathmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\playerdeathmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|c:\\unityprojects\\git project\\pokemon survival depths\\assets\\scripts\\ui\\ui_selectionnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_selectionnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|c:\\unityprojects\\git project\\pokemon survival depths\\assets\\scripts\\ui\\ui_leveluppanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_leveluppanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|c:\\unityprojects\\git project\\pokemon survival depths\\assets\\scripts\\ui\\ui_infobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui_infobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|c:\\unityprojects\\git project\\pokemon survival depths\\assets\\scripts\\ui\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|c:\\unityprojects\\git project\\pokemon survival depths\\assets\\scripts\\ui\\levelupqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57951AB9-F0F2-0CCF-7BF9-0FD1B8D40A2C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\levelupqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InfoMenuManager.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\Manager\\InfoMenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\InfoMenuManager.cs",
+              "ToolTip": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\Manager\\InfoMenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\InfoMenuManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:41:41.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainMenuManager.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\Manager\\MainMenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\MainMenuManager.cs",
+              "ToolTip": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\Manager\\MainMenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\MainMenuManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:40:58.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RunManager.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\Manager\\RunManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\RunManager.cs",
+              "ToolTip": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\Manager\\RunManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\RunManager.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwE4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:37:11.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
+              "ToolTip": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAD4vzQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:25:04.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerSpawnerManager.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\Manager\\PlayerSpawnerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\PlayerSpawnerManager.cs",
+              "ToolTip": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\Manager\\PlayerSpawnerManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\PlayerSpawnerManager.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:24:56.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerDeathManager.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\Manager\\PlayerDeathManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\PlayerDeathManager.cs",
+              "ToolTip": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\Manager\\PlayerDeathManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\PlayerDeathManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:22:37.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameOverMenuManager.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\Manager\\GameOverMenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\GameOverMenuManager.cs",
+              "ToolTip": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\Manager\\GameOverMenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\GameOverMenuManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:21:19.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player_XP.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\Player\\Player_XP.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player_XP.cs",
+              "ToolTip": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\Player\\Player_XP.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player_XP.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAJsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:17:34.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WaveManager.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\WaveSystem\\WaveManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WaveSystem\\WaveManager.cs",
+              "ToolTip": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\WaveSystem\\WaveManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WaveSystem\\WaveManager.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAOgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:19:08.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UI_SelectionNode.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\UI\\UI_SelectionNode.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_SelectionNode.cs",
+              "ToolTip": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\UI\\UI_SelectionNode.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_SelectionNode.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:17:15.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UI_LevelUpPanel.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\UI\\UI_LevelUpPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_LevelUpPanel.cs",
+              "ToolTip": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\UI\\UI_LevelUpPanel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_LevelUpPanel.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:17:03.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UI_InfoBox.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\UI\\UI_InfoBox.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI_InfoBox.cs",
+              "ToolTip": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\UI\\UI_InfoBox.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI_InfoBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:16:55.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UI.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\UI\\UI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UI.cs",
+              "ToolTip": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\UI\\UI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:16:42.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LevelUpQueue.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\UI\\LevelUpQueue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\LevelUpQueue.cs",
+              "ToolTip": "C:\\UnityProjects\\Git Project\\Pokemon Survival Depths\\Assets\\Scripts\\UI\\LevelUpQueue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\LevelUpQueue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:16:23.842Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
