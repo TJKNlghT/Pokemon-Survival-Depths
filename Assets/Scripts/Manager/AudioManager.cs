@@ -20,11 +20,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip selectSound;
     public AudioClip potionPickupSound;
     public AudioClip levelUpSound;
-    public AudioClip charmanderFaintSound;
-    public AudioClip squirtleFaintSound;
-    public AudioClip pikachuFaintSound;
-    public AudioClip fireballSound;
-    public AudioClip poisonStingSound;
+    public AudioClip hitSound;
     
     void Awake()
     {
@@ -168,43 +164,11 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    public void PlayCharmanderFaintSound()
+    public void PlayHitSound()
     {
-        if (sfxSource != null && charmanderFaintSound != null)
+        if (sfxSource != null && hitSound != null)
         {
-            sfxSource.PlayOneShot(charmanderFaintSound);
-        }
-    }
-
-    public void PlaySquirtleFaintSound()
-    {
-        if (sfxSource != null && squirtleFaintSound != null)
-        {
-            sfxSource.PlayOneShot(squirtleFaintSound);
-        }
-    }
-
-    public void PlayPikachuFaintSound()
-    {
-        if (sfxSource != null && pikachuFaintSound != null)
-        {
-            sfxSource.PlayOneShot(pikachuFaintSound);
-        }
-    }
-
-    public void PlayFireballSound()
-    {
-        if (sfxSource != null && fireballSound != null)
-        {
-            sfxSource.PlayOneShot(fireballSound);
-        }
-    }
-
-    public void PlayPoisonStingSound()
-    {
-        if (sfxSource != null && poisonStingSound != null)
-        {
-            sfxSource.PlayOneShot(poisonStingSound);
+            sfxSource.PlayOneShot(hitSound);
         }
     }
 

@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -32,6 +33,9 @@ public class WaveManager : MonoBehaviour
 
     [Header("Boss Intro")]
     [SerializeField] private float bossIntroCameraDuration = 5f;
+
+    [Header("UI")]
+    [SerializeField] private TextMeshProUGUI waveText;
 
 
     private int currentWave = 0;
@@ -84,12 +88,33 @@ public class WaveManager : MonoBehaviour
         //         $"Global={enemiesAlive}, Wave={enemiesAliveThisWave}");
     }
 
+    private IEnumerator ShowNextMapCountdown(float seconds)
+    {
+        if (!waveText)
+        {
+            // no UI bound, just wait
+            yield return new WaitForSeconds(seconds);
+            yield break;
+        }
+
+        int remaining = Mathf.CeilToInt(seconds);
+
+        while (remaining > 0)
+        {
+            waveText.text = $"Next map in {remaining}...";
+            yield return new WaitForSeconds(1f);
+            remaining--;
+        }
+    }
+
     private IEnumerator RunWaves()
     {
         while (currentWave < totalWaves)
         {
             currentWave++;
             // Debug.Log($"[WaveManager] Starting wave {currentWave}/{totalWaves}");
+
+            UpdateWaveUI();
 
             // reset per-wave counter BEFORE spawning
             enemiesAliveThisWave = 0;
@@ -115,6 +140,7 @@ public class WaveManager : MonoBehaviour
 
     private IEnumerator SpawnWave(int waveNumber)
     {
+        // Normal waves
         if (waveNumber < totalWaves)
         {
             int count = GetEnemyCountForWave(waveNumber);
@@ -153,7 +179,6 @@ public class WaveManager : MonoBehaviour
         if (bossTransform == null)
             yield break;
 
-        // Find camera follow
         var cam = FindFirstObjectByType<CameraFollow>();
         if (cam == null)
             yield break;
@@ -162,40 +187,29 @@ public class WaveManager : MonoBehaviour
         var player = FindFirstObjectByType<Player>();
         Transform playerT = player ? player.transform : null;
 
-        // 1) Freeze gameplay (player, boss, projectiles, physics, etc.)
-        float oldTimeScale = Time.timeScale;
+        // 1) Freeze gameplay (player, boss, all AI, physics)
+        float previousTimeScale = Time.timeScale;
         Time.timeScale = 0f;
 
-        // 2) Switch to boss music
+        // 2) Switch to boss music and KEEP IT for the whole fight
         if (AudioManager.Instance != null)
             AudioManager.Instance.PlayBossMusic();
 
-        // 3) Focus camera on boss
-        cam.SetTarget(bossTransform);
+        // 3) Smoothly pan camera to the boss (no snap)
+        cam.SetTarget(bossTransform, snapImmediately: false);
 
-        // 4) Wait in real time (unaffected by timeScale)
+        // 4) Wait in REAL time so the intro plays even with timeScale = 0
         if (bossIntroCameraDuration > 0f)
             yield return new WaitForSecondsRealtime(bossIntroCameraDuration);
 
-        // 5) Return camera to player
+        // 5) Smoothly pan back to player
         if (playerT != null)
-            cam.SetTarget(playerT);
+            cam.SetTarget(playerT, snapImmediately: false);
 
-        // 6) Restore map BGM
-        if (AudioManager.Instance != null)
-        {
-            var sceneName = SceneManager.GetActiveScene().name;
-
-            if (sceneName == "ForestMap")
-                AudioManager.Instance.PlayForestMusic();
-            else if (sceneName == "DesertMap")
-                AudioManager.Instance.PlayDesertMusic();
-            else
-                AudioManager.Instance.PlayMainMenuMusic(); // fallback
-        }
+        // 6) Don’t change music back here – boss theme continues for whole fight
 
         // 7) Unfreeze gameplay
-        Time.timeScale = oldTimeScale;
+        Time.timeScale = previousTimeScale;
     }
 
     private int GetEnemyCountForWave(int waveNumber)
@@ -257,37 +271,58 @@ public class WaveManager : MonoBehaviour
         var currentScene = SceneManager.GetActiveScene().name;
         Debug.Log($"[WaveManager] All waves complete in scene: {currentScene}");
 
+        // ====== 1) Swap boss music back to normal map BGM ======
+        if (AudioManager.Instance != null)
+        {
+            switch (currentScene)
+            {
+                case "ForestMap":
+                    AudioManager.Instance.PlayForestMusic();
+                    break;
 
-        if (currentScene == "ForestMap") // first map
+                case "DesertMap":
+                    AudioManager.Instance.PlayDesertMusic();
+                    break;
+
+                default:
+                    // for other maps you can choose a default, e.g. main menu
+                    // AudioManager.Instance.PlayMainMenuMusic();
+                    break;
+            }
+        }
+
+        // ====== 2) Per-map flow with loot grace ======
+
+        // Forest map -> back to WorldMap
+        if (currentScene == "ForestMap")
         {
             if (lootGraceDuration > 0f)
             {
                 Debug.Log($"[WaveManager] Loot grace period: {lootGraceDuration} seconds.");
-                yield return new WaitForSeconds(lootGraceDuration);
+
+                yield return StartCoroutine(ShowNextMapCountdown(lootGraceDuration));
             }
 
-            MapManager.CompleteForestMap();   // mark forest as done
-            SceneManager.LoadScene("WorldMap"); // back to map selection
+            MapManager.CompleteForestMap();      // unlocks Desert
+            SceneManager.LoadScene("WorldMap");  // map selection scene
             yield break;
         }
 
-        if (currentScene == "DesertMap") // second map
+        // Desert map -> Victory
+        if (currentScene == "DesertMap")
         {
-            // If loot grace on the last map
-            /*
             if (lootGraceDuration > 0f)
             {
-                Debug.Log($"[WaveManager] Final-map loot grace: {lootGraceDuration} seconds.");
+                Debug.Log($"[WaveManager] Loot grace period (Desert): {lootGraceDuration} seconds.");
                 yield return new WaitForSeconds(lootGraceDuration);
             }
-            */
 
-            MapManager.CompleteDesertMap(); // track completion
+            MapManager.CompleteDesertMap();
             SceneManager.LoadScene("VictoryMenu");
             yield break;
         }
 
-        // Fallback / other maps
+        // ====== 3) Fallback for other maps ======
         if (!string.IsNullOrEmpty(nextSceneName))
         {
             if (lootGraceDuration > 0f)
@@ -305,6 +340,22 @@ public class WaveManager : MonoBehaviour
         else
         {
             Debug.Log("[WaveManager] All waves complete, but no next scene configured.");
+        }
+    }
+
+    private void UpdateWaveUI()
+    {
+        if (!waveText) return;
+
+        // Normal waves
+        if (currentWave < totalWaves)
+        {
+            waveText.text = $"Wave {currentWave} / {totalWaves}";
+        }
+        else
+        {
+            // Final boss wave
+            waveText.text = "Boss Fight!";
         }
     }
 }

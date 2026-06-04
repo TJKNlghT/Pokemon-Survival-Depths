@@ -18,6 +18,10 @@ public class Player_XP : MonoBehaviour
     [Header("UI")]
     [SerializeField] private Slider xpBar;
 
+    [Header("Map Entry Snapshot")]
+    [SerializeField] private int entryLevel;
+    [SerializeField] private int entryXP;
+
     private int xpToNextLevel;
 
     private LevelUpQueue levelUpQueue;
@@ -37,6 +41,10 @@ public class Player_XP : MonoBehaviour
         playerBuffs = GetComponent<Entity_Buffs>();
 
         TryResolveLevelUpQueue();
+
+        // default snapshot = current level/xp (useful for first map)
+        entryLevel = level;
+        entryXP = currentXP;
 
         UpdateXPBar();
 
@@ -84,7 +92,28 @@ public class Player_XP : MonoBehaviour
         currentXP = 0;
         xpToNextLevel = GetXPNeededForLevel(level);
         UpdateXPBar();
+
+        // also update snapshot to match
+        entryLevel = level;
+        entryXP = currentXP;
     }
+
+    public void CaptureMapEntrySnapshot()
+    {
+        entryLevel = level;
+        entryXP = currentXP;
+        // Debug.Log($"[Player_XP] Snapshot captured: L{entryLevel}, XP {entryXP}");
+    }
+
+    public void ResetToMapEntrySnapshot()
+    {
+        level = Mathf.Max(1, entryLevel);
+        currentXP = Mathf.Max(0, entryXP);
+        xpToNextLevel = GetXPNeededForLevel(level);
+        UpdateXPBar();
+        // Debug.Log($"[Player_XP] Reset to snapshot: L{level}, XP {currentXP}/{xpToNextLevel}");
+    }
+
 
     public void BindXPBar(Slider slider)
     {

@@ -10,10 +10,9 @@ public class CameraFollow : MonoBehaviour
 
     private void Start()
     {
-        // Try to grab a player at scene start
         TryFindPlayer();
 
-        // Snap camera immediately if found
+        // Snap once at start
         if (target != null)
             transform.position = target.position + offset;
     }
@@ -22,12 +21,12 @@ public class CameraFollow : MonoBehaviour
     {
         if (target == null || !target.gameObject.activeInHierarchy)
         {
-            // In case player was spawned later or respawned
             TryFindPlayer();
             if (target == null) return;
         }
 
         Vector3 desiredPosition = target.position + offset;
+        // Smooth pan; smoothSpeed ~ 0.1�0.2 works nicely
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
         transform.position = smoothedPosition;
     }
@@ -37,17 +36,19 @@ public class CameraFollow : MonoBehaviour
         var player = FindFirstObjectByType<Player>();
         if (player != null)
         {
-            target = player.transform;
-            // optional: snap immediately when found
-            transform.position = target.position + offset;
+            SetTarget(player.transform, true);  // snap on initial find
         }
     }
 
-    // Optional: lets other scripts explicitly set the target
-    public void SetTarget(Transform newTarget)
+    /// Set a new camera target.
+    /// snapImmediately = true  -> teleports camera to target
+    /// snapImmediately = false -> camera smoothly pans to target
+    public void SetTarget(Transform newTarget, bool snapImmediately = true)
     {
         target = newTarget;
-        if (target != null)
+        if (snapImmediately && target != null)
+        {
             transform.position = target.position + offset;
+        }
     }
 }

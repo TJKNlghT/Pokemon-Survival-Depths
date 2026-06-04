@@ -15,6 +15,7 @@ public class PickUps_Potion : PickUps
             return false;
 
         health.IncreaseHealth(healAmount);
+        AudioManager.Instance.PlayPotionPickupSound();
         return true; // consumed
     }
 }

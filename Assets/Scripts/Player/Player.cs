@@ -50,7 +50,7 @@ public class Player : Entity
             health.ResetFullHealth();   // isDead = false, HP = max
 
         var xp = GetComponent<Player_XP>();
-        xp?.ResetXPAndLevel(1);
+        xp?.ResetToMapEntrySnapshot();
 
         // reset facing / velocity
         lastDir = Vector2.down;

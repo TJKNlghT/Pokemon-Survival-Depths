@@ -30,6 +30,7 @@ public class Entity : MonoBehaviour
 
     //Status Effects
     private bool isKnocked;
+    public bool IsKnocked => isKnocked;
     private Coroutine knockbackCo;
     private Coroutine slowDownCo;
 
@@ -81,8 +82,8 @@ public class Entity : MonoBehaviour
         isKnocked = true;
         rb.linearVelocity = knockback;
 
-
         var vfx = GetComponent<Entity_VFX>();
+        AudioManager.Instance.PlayHitSound();
         vfx?.ShowHurtSprite(duration, lastDir);
 
         yield return new WaitForSeconds(duration);

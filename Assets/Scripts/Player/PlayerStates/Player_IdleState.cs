@@ -11,8 +11,12 @@ public class Player_IdleState : PlayerState
 
         player.SetVelocity(0f, 0f);
 
-        anim.SetFloat("xVelocity", player.lastDir.x);
-        anim.SetFloat("yVelocity", player.lastDir.y);
+        // Don't update animation parameters if animator is disabled (during hurt sprite) or if knocked back
+        if (anim != null && anim.enabled && !player.IsKnocked)
+        {
+            anim.SetFloat("xVelocity", player.lastDir.x);
+            anim.SetFloat("yVelocity", player.lastDir.y);
+        }
     }
 
     public override void Update(){

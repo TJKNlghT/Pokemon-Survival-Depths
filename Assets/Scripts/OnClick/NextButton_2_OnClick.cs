@@ -1,12 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class InfoButtonOnClick : MonoBehaviour
+public class NextButton_2_OnClick : MonoBehaviour
 {
-    public void OnInfoButton()
+
+    public void OnNextButton()
     {
         PlaySelectSound();
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(12);
     }
 
     void PlaySelectSound()

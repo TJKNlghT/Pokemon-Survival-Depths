@@ -14,6 +14,7 @@ public class PickUps_XP : PickUps
         }
 
         xp.AddXP(xpAmount);
+        AudioManager.Instance.PlayLevelUpSound();
         return true; // pickup consumed
     }
 }

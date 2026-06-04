@@ -17,7 +17,8 @@ public class Player_MoveState : PlayerState
 
         dir = player.GetInputDir();
 
-        if (dir != Vector2.zero)
+        // Don't update lastDir during knockback to prevent animation conflicts
+        if (dir != Vector2.zero && !player.IsKnocked)
             player.lastDir = dir;
 
         base.Update();
@@ -40,7 +41,11 @@ public class Player_MoveState : PlayerState
     {
         base.UpdateAnimationParameters();
 
-        anim.SetFloat("xVelocity", player.lastDir.x);
-        anim.SetFloat("yVelocity", player.lastDir.y);
+        // Don't update animation parameters if animator is disabled (during hurt sprite) or if knocked back
+        if (anim != null && anim.enabled && !player.IsKnocked)
+        {
+            anim.SetFloat("xVelocity", player.lastDir.x);
+            anim.SetFloat("yVelocity", player.lastDir.y);
+        }
     }
 }

@@ -19,6 +19,14 @@ public class ForestMapManager : MonoBehaviour
 
         // tell RunManager we just started this map
         RunManager.Instance?.BeginMap(SceneManager.GetActiveScene().name); // Remember need to at to other map managers
+
+        // Capture XP/level snapshot for this map
+        var player = FindFirstObjectByType<Player>();
+        if (player != null)
+        {
+            var xp = player.GetComponent<Player_XP>();
+            xp?.CaptureMapEntrySnapshot();
+        }
     }
 
     void ShowSelectedPokemonIcon()

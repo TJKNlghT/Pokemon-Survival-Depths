@@ -11,6 +11,12 @@ public class RunManager : MonoBehaviour
     private readonly List<string> currentMapBuffSources = new();
     private Entity_Buffs playerBuffs;
 
+    // track whether we already showed the level-up tutorial in THIS run
+    [SerializeField] private bool hasShownLevelUpTutorialThisRun = false;
+
+    // track whether we already showed the intro tutorial in THIS run
+    [SerializeField] private bool hasShownIntroTutorialThisRun = false;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -33,6 +39,24 @@ public class RunManager : MonoBehaviour
     {
         lastMapSceneName = sceneName;
         currentMapBuffSources.Clear();
+    }
+
+    public bool ConsumeLevelUpTutorialFlag()
+    {
+        if (hasShownLevelUpTutorialThisRun)
+            return false;
+
+        hasShownLevelUpTutorialThisRun = true;
+        return true;
+    }
+
+    public bool ConsumeIntroTutorialFlag()
+    {
+        if (hasShownIntroTutorialThisRun)
+            return false;
+
+        hasShownIntroTutorialThisRun = true;
+        return true;
     }
 
     public string GetLastMapSceneName() => lastMapSceneName;
@@ -60,6 +84,8 @@ public class RunManager : MonoBehaviour
     {
         currentMapBuffSources.Clear();
         lastMapSceneName = "";
+        hasShownLevelUpTutorialThisRun = false;
+        hasShownIntroTutorialThisRun = false;
     }
 
     public void ResetAllProgress()

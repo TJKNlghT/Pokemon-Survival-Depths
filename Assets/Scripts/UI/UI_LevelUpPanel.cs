@@ -10,6 +10,8 @@ public class UI_LevelUpPanel : MonoBehaviour
     [SerializeField] private GameObject root;           // panel root (enable/disable)
     [SerializeField] private UI_SelectionNode[] nodes;  // exactly 3 buttons/cards
 
+    [SerializeField] private GameObject tutorialRoot;
+
     [Header("Lifecycle")]
     [SerializeField] private bool destroyOnClose = true;
 
@@ -26,6 +28,11 @@ public class UI_LevelUpPanel : MonoBehaviour
             nodes = GetComponentsInChildren<UI_SelectionNode>(true);
 
         root.SetActive(false);
+
+
+        // ensure tutorial is off initially
+        if (tutorialRoot != null)
+            tutorialRoot.SetActive(false);
     }
 
     public void Show(Buff_DataSO[] options, Entity_Buffs buffsTarget)
@@ -41,6 +48,15 @@ public class UI_LevelUpPanel : MonoBehaviour
 
         root.SetActive(true);
         Time.timeScale = 0f;
+
+        bool shouldShowTutorial = RunManager.Instance != null &&
+                          RunManager.Instance.ConsumeLevelUpTutorialFlag();
+
+        if (shouldShowTutorial && tutorialRoot != null)
+        {
+            tutorialRoot.transform.SetAsLastSibling();
+            tutorialRoot.SetActive(true);
+        }
     }
 
     public void Hide()
@@ -64,6 +80,7 @@ public class UI_LevelUpPanel : MonoBehaviour
 
         // Entity_Buffs.Apply now returns a source ID for mapScoped/timed buffs
         string sourceId = targetBuffs.Apply(picked);
+        AudioManager.Instance.PlaySelectSound();
 
         if (picked.mapScoped && RunManager.Instance != null)
         {
@@ -71,5 +88,13 @@ public class UI_LevelUpPanel : MonoBehaviour
         }
 
         Hide();
+    }
+
+    public void OnTutorialOkButton()
+    {
+        if (tutorialRoot != null)
+            tutorialRoot.SetActive(false);
+            AudioManager.Instance.PlaySelectSound();
+        // Panel stays open, player can now click a buff
     }
 }

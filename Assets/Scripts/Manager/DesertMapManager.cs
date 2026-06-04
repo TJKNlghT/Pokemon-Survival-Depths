@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DesertMapManager : MonoBehaviour
 {
@@ -21,6 +22,17 @@ public class DesertMapManager : MonoBehaviour
 
         ShowSelectedPokemonIcon();
         ActivateSelectedPlayer();
+
+        // Tell RunManager we just started this map
+        RunManager.Instance?.BeginMap(SceneManager.GetActiveScene().name);
+
+        // Capture XP/level snapshot for this map
+        var player = FindFirstObjectByType<Player>();
+        if (player != null)
+        {
+            var xp = player.GetComponent<Player_XP>();
+            xp?.CaptureMapEntrySnapshot();
+        }
     }
 
     void ShowSelectedPokemonIcon()

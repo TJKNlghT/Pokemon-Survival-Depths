@@ -1,12 +1,15 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class InfoButtonOnClick : MonoBehaviour
+public class CreditsMenu3Manager : MonoBehaviour
 {
-    public void OnInfoButton()
+    void Update()
     {
-        PlaySelectSound();
-        SceneManager.LoadScene(7);
+        if (Input.GetKeyDown(KeyCode.Backspace))
+        {
+            PlaySelectSound();
+            SceneManager.LoadScene(9);
+        }
     }
 
     void PlaySelectSound()
