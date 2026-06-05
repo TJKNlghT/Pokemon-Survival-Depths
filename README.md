@@ -56,7 +56,7 @@ The environment features structural difficulty tiers, translating abstract desig
 
 ## How to Play
 
-1. Download the latest pre-compiled build archive from the [**GitHub Releases**](https://github.com/Alone1101/Pokemon-Survival-Depths/releases) page.
+1. Download the latest pre-compiled build archive from the [**GitHub Releases**](https://github.com/TJKNlghT/Pokemon-Survival-Depths/releases) page.
 2. Extract the downloaded `.zip` folder fully to your local machine.
 3. Launch the game executable (e.g., `Pokemon_Survival_Depths.exe`) inside the uncompressed directory. No installation processes are required.
 
