@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-Coursework_Completed-green)
 ![License](https://img.shields.io/badge/License-Academic-lightgrey)
 
-> A Pokémon-themed roguelike dungeon crawler built in Unity for the COMP3218 Game Design and Development module. The game leverages automated combat mechanics, procedural level components, and dynamic choice-driven upgrade loops.
+> Pokémon-themed roguelike dungeon crawler built in Unity (C#) with auto-combat, procedural enemy spawns, and a choice-driven upgrade loop
 
 ---
 
